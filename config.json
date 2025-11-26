@@ -1,0 +1,11 @@
+{
+    "alpha": 0.4,
+    "bg": "black",
+    "fg": "red",
+    "width": 70,
+    "height": 40,
+    "x": 0,
+    "y": 750,
+    "font_size": 24,
+    "anchor": "e"
+}

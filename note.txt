@@ -1,0 +1,5 @@
+uv init
+uv run pythonw main.py # 콘솔창 없이 가상환경에서 실행
+
+uv add --dev pyinstaller
+uv run pyinstaller -F -w --uac-admin --clean --noconfirm --name "HangulIndicator" main.py
