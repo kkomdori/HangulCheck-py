@@ -2,19 +2,39 @@
 
 현재 input mode 가 한글임을 화면 가장자리에 작게 표시해주는 윈도우 응용프로그램입니다.  
 input mode 가 영어일 때는 표시가 사라집니다.  
+저수준의 windows API 를 사용하므로 관리자 권한으로 실행해야 합니다. 
+<br>
 
-## 기능
+## 필요하신 분
+- 한영 전환 상태를 매번 타이핑 후 인지하는 과정이 피곤하다고 느끼시는 분
+- 화면을 넓게 쓰기 위해 작업표시줄을 숨기고 사용하시던 분
+- 고해상도 작업표시줄의 깨알 같이 표시된 input mode 확인이 어려우셨던 분
 
+### Release
+https://github.com/kkomdori/HangulCheck-py/releases/download/hangul/HangulIndicator.exe
+<br>
+
+## 부가기능
 - 위치/크기 설정
 - 텍스트 정렬
 - 텍스트색 선택
 - 패널색 선택
 - 투명도 설정
-
+  
+<br>
 <div style="display: flex; gap: 10px;">
   <img width="604" height="470" alt="image" src="https://github.com/user-attachments/assets/530607b7-a3b3-46cc-b3d5-a98a28add052" />
   <img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/740189b7-9aa3-4fac-bbfd-44ab2bdfc4c7" />
 </div>
+<br>
+
+## 제한점
+
+- IME 상태를 가져올 수 없는 경우 마지막 input mode로 표시됩니다. 
+- 확인된 사례:
+  - windows copilot
+  - youtube fullscreen
+<br>
 
 ## 윈도우 시작 시 자동실행 방법 (스케줄러 등록)
 
