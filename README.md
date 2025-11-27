@@ -3,7 +3,7 @@
 현재 input mode 가 한글임을 화면 가장자리에 작게 표시해주는 윈도우 응용프로그램입니다.  
 input mode 가 영어일 때는 표시가 사라집니다.  
 저수준의 windows API 를 사용하므로 관리자 권한으로 실행해야 합니다. 
-<br>
+<br><br>
 
 ## 필요하신 분
 - 한영 전환 상태를 매번 타이핑 후 인지하는 과정이 피곤하다고 느끼시는 분
@@ -12,7 +12,7 @@ input mode 가 영어일 때는 표시가 사라집니다.
 
 ### Release
 https://github.com/kkomdori/HangulCheck-py/releases/download/hangul/HangulIndicator.exe
-<br>
+<br><br>
 
 ## 부가기능
 - 위치/크기 설정
