@@ -4,4 +4,4 @@
 input mode 가 영어일 때는 표시가 사라집니다.  
 
 ![01](https://github.com/kkomdori/HangulCheck-py/issues/1#issue-3669531587)
-![02]()
+![02](https://github.com/kkomdori/HangulCheck-py/issues/2#issue-3669536705)
